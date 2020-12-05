@@ -3,23 +3,64 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270D3B73257C46D20072CDF2 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D3B72257C46D20072CDF2 /* UserSettings.swift */; };
+		277586EF257C471D00FB1728 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D3B72257C46D20072CDF2 /* UserSettings.swift */; };
+		277586F4257C4E3000FB1728 /* IrregularGradient in Frameworks */ = {isa = PBXBuildFile; productRef = 277586F3257C4E3000FB1728 /* IrregularGradient */; };
 		277BC112257A6D3100D7E6D0 /* Clear_Spaces_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277BC111257A6D3100D7E6D0 /* Clear_Spaces_ChallengeApp.swift */; };
 		277BC114257A6D3100D7E6D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277BC113257A6D3100D7E6D0 /* ContentView.swift */; };
 		277BC116257A6D3300D7E6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277BC115257A6D3300D7E6D0 /* Assets.xcassets */; };
 		277BC119257A6D3300D7E6D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277BC118257A6D3300D7E6D0 /* Preview Assets.xcassets */; };
+		27C77E9B257A6E62007BD2EF /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C77E9A257A6E62007BD2EF /* WidgetKit.framework */; };
+		27C77E9D257A6E62007BD2EF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C77E9C257A6E62007BD2EF /* SwiftUI.framework */; };
+		27C77EA0257A6E62007BD2EF /* Basic_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C77E9F257A6E62007BD2EF /* Basic_Text.swift */; };
+		27C77EA2257A6E64007BD2EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C77EA1257A6E64007BD2EF /* Assets.xcassets */; };
+		27C77EA6257A6E64007BD2EF /* Basic TextExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 27C77E98257A6E62007BD2EF /* Basic TextExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		27C77EA4257A6E64007BD2EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277BC106257A6D3100D7E6D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C77E97257A6E62007BD2EF;
+			remoteInfo = "Basic TextExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27C77EA7257A6E64007BD2EF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				27C77EA6257A6E64007BD2EF /* Basic TextExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		270D3B72257C46D20072CDF2 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 		277BC10E257A6D3100D7E6D0 /* Clear Spaces Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clear Spaces Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		277BC111257A6D3100D7E6D0 /* Clear_Spaces_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clear_Spaces_ChallengeApp.swift; sourceTree = "<group>"; };
 		277BC113257A6D3100D7E6D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		277BC115257A6D3300D7E6D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		277BC118257A6D3300D7E6D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		277BC11A257A6D3300D7E6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C77E98257A6E62007BD2EF /* Basic TextExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Basic TextExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C77E9A257A6E62007BD2EF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		27C77E9C257A6E62007BD2EF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		27C77E9F257A6E62007BD2EF /* Basic_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_Text.swift; sourceTree = "<group>"; };
+		27C77EA1257A6E64007BD2EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27C77EA3257A6E64007BD2EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C77EAD257A6FE1007BD2EF /* Clear Spaces Challenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Clear Spaces Challenge.entitlements"; sourceTree = "<group>"; };
+		27C77EAE257A71B5007BD2EF /* Basic TextExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Basic TextExtension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,13 +71,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27C77E95257A6E62007BD2EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277586F4257C4E3000FB1728 /* IrregularGradient in Frameworks */,
+				27C77E9D257A6E62007BD2EF /* SwiftUI.framework in Frameworks */,
+				27C77E9B257A6E62007BD2EF /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		277BC105257A6D3100D7E6D0 = {
 			isa = PBXGroup;
 			children = (
+				27C77EAE257A71B5007BD2EF /* Basic TextExtension.entitlements */,
 				277BC110257A6D3100D7E6D0 /* Clear Spaces Challenge */,
+				27C77E9E257A6E62007BD2EF /* Basic Text */,
+				27C77E99257A6E62007BD2EF /* Frameworks */,
 				277BC10F257A6D3100D7E6D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				277BC10E257A6D3100D7E6D0 /* Clear Spaces Challenge.app */,
+				27C77E98257A6E62007BD2EF /* Basic TextExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +107,9 @@
 		277BC110257A6D3100D7E6D0 /* Clear Spaces Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				27C77EAD257A6FE1007BD2EF /* Clear Spaces Challenge.entitlements */,
 				277BC111257A6D3100D7E6D0 /* Clear_Spaces_ChallengeApp.swift */,
+				270D3B72257C46D20072CDF2 /* UserSettings.swift */,
 				277BC113257A6D3100D7E6D0 /* ContentView.swift */,
 				277BC115257A6D3300D7E6D0 /* Assets.xcassets */,
 				277BC11A257A6D3300D7E6D0 /* Info.plist */,
@@ -69,6 +126,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		27C77E99257A6E62007BD2EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27C77E9A257A6E62007BD2EF /* WidgetKit.framework */,
+				27C77E9C257A6E62007BD2EF /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27C77E9E257A6E62007BD2EF /* Basic Text */ = {
+			isa = PBXGroup;
+			children = (
+				27C77E9F257A6E62007BD2EF /* Basic_Text.swift */,
+				27C77EA1257A6E64007BD2EF /* Assets.xcassets */,
+				27C77EA3257A6E64007BD2EF /* Info.plist */,
+			);
+			path = "Basic Text";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +155,39 @@
 				277BC10A257A6D3100D7E6D0 /* Sources */,
 				277BC10B257A6D3100D7E6D0 /* Frameworks */,
 				277BC10C257A6D3100D7E6D0 /* Resources */,
+				27C77EA7257A6E64007BD2EF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C77EA5257A6E64007BD2EF /* PBXTargetDependency */,
+			);
+			name = "Clear Spaces Challenge";
+			packageProductDependencies = (
+			);
+			productName = "Clear Spaces Challenge";
+			productReference = 277BC10E257A6D3100D7E6D0 /* Clear Spaces Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27C77E97257A6E62007BD2EF /* Basic TextExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C77EAA257A6E64007BD2EF /* Build configuration list for PBXNativeTarget "Basic TextExtension" */;
+			buildPhases = (
+				27C77E94257A6E62007BD2EF /* Sources */,
+				27C77E95257A6E62007BD2EF /* Frameworks */,
+				27C77E96257A6E62007BD2EF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Clear Spaces Challenge";
-			productName = "Clear Spaces Challenge";
-			productReference = 277BC10E257A6D3100D7E6D0 /* Clear Spaces Challenge.app */;
-			productType = "com.apple.product-type.application";
+			name = "Basic TextExtension";
+			packageProductDependencies = (
+				277586F3257C4E3000FB1728 /* IrregularGradient */,
+			);
+			productName = "Basic TextExtension";
+			productReference = 27C77E98257A6E62007BD2EF /* Basic TextExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +201,9 @@
 					277BC10D257A6D3100D7E6D0 = {
 						CreatedOnToolsVersion = 12.2;
 					};
+					27C77E97257A6E62007BD2EF = {
+						CreatedOnToolsVersion = 12.2;
+					};
 				};
 			};
 			buildConfigurationList = 277BC109257A6D3100D7E6D0 /* Build configuration list for PBXProject "Clear Spaces Challenge" */;
@@ -112,11 +215,15 @@
 				Base,
 			);
 			mainGroup = 277BC105257A6D3100D7E6D0;
+			packageReferences = (
+				277586F2257C4E3000FB1728 /* XCRemoteSwiftPackageReference "IrregularGradient" */,
+			);
 			productRefGroup = 277BC10F257A6D3100D7E6D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				277BC10D257A6D3100D7E6D0 /* Clear Spaces Challenge */,
+				27C77E97257A6E62007BD2EF /* Basic TextExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +238,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27C77E96257A6E62007BD2EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C77EA2257A6E64007BD2EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,11 +254,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				277BC114257A6D3100D7E6D0 /* ContentView.swift in Sources */,
+				270D3B73257C46D20072CDF2 /* UserSettings.swift in Sources */,
 				277BC112257A6D3100D7E6D0 /* Clear_Spaces_ChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27C77E94257A6E62007BD2EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C77EA0257A6E62007BD2EF /* Basic_Text.swift in Sources */,
+				277586EF257C471D00FB1728 /* UserSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27C77EA5257A6E64007BD2EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C77E97257A6E62007BD2EF /* Basic TextExtension */;
+			targetProxy = 27C77EA4257A6E64007BD2EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		277BC11B257A6D3300D7E6D0 /* Debug */ = {
@@ -265,8 +398,10 @@
 		277BC11E257A6D3300D7E6D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Clear Spaces Challenge/Clear Spaces Challenge.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Clear Spaces Challenge/Preview Content\"";
 				DEVELOPMENT_TEAM = X9NAXV39HG;
@@ -287,8 +422,10 @@
 		277BC11F257A6D3300D7E6D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Clear Spaces Challenge/Clear Spaces Challenge.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Clear Spaces Challenge/Preview Content\"";
 				DEVELOPMENT_TEAM = X9NAXV39HG;
@@ -301,6 +438,50 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joogps.Clear-Spaces-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27C77EA8257A6E64007BD2EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Basic TextExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9NAXV39HG;
+				INFOPLIST_FILE = "Basic Text/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joogps.Clear-Spaces-Challenge.Basic-Text";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27C77EA9257A6E64007BD2EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Basic TextExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9NAXV39HG;
+				INFOPLIST_FILE = "Basic Text/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joogps.Clear-Spaces-Challenge.Basic-Text";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -327,7 +508,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		27C77EAA257A6E64007BD2EF /* Build configuration list for PBXNativeTarget "Basic TextExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C77EA8257A6E64007BD2EF /* Debug */,
+				27C77EA9257A6E64007BD2EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		277586F2257C4E3000FB1728 /* XCRemoteSwiftPackageReference "IrregularGradient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:joogps/IrregularGradient.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		277586F3257C4E3000FB1728 /* IrregularGradient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 277586F2257C4E3000FB1728 /* XCRemoteSwiftPackageReference "IrregularGradient" */;
+			productName = IrregularGradient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 277BC106257A6D3100D7E6D0 /* Project object */;
 }

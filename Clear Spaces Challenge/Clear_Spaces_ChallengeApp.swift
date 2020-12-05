@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Clear_Spaces_ChallengeApp: App {
+    var settings = UserSettings()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(settings)
         }
     }
 }
