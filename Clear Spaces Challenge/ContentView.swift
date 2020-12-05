@@ -43,14 +43,16 @@ struct ColorSchemeSelector: View {
         settings.colorSchemes[index]
     }
     
+    @Environment(\.colorScheme) var systemScheme
+    
     var body: some View {
         Circle()
             .fill(LinearGradient(gradient: Gradient(colors: colorScheme.colors), startPoint: .topLeading, endPoint: .bottom))
             .frame(width: 50, height: 50)
             .overlay(Circle()
                     .scale(0.8)
-                        .stroke(Color.white, lineWidth: index == settings.currentScheme ? 3 : 0)
-                    .animation(.easeInOut(duration: 0.3)))
+                        .stroke(Color(systemScheme == .dark ? .systemGray4 : .white), lineWidth: index == settings.currentScheme ? 3 : 0)
+                    .animation(.easeInOut(duration: 0.2)))
             .onTapGesture {
                 settings.currentScheme = index
                 let generator = UIImpactFeedbackGenerator(style: .light)
