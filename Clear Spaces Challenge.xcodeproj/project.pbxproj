@@ -404,7 +404,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Clear Spaces Challenge/Clear Spaces Challenge.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Clear Spaces Challenge/Preview Content\"";
-				DEVELOPMENT_TEAM = X9NAXV39HG;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Clear Spaces Challenge/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -428,7 +428,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Clear Spaces Challenge/Clear Spaces Challenge.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Clear Spaces Challenge/Preview Content\"";
-				DEVELOPMENT_TEAM = X9NAXV39HG;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Clear Spaces Challenge/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -450,7 +450,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = "Basic TextExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X9NAXV39HG;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Basic Text/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -472,7 +472,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = "Basic TextExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X9NAXV39HG;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Basic Text/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
