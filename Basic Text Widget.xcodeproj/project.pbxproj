@@ -10,7 +10,7 @@
 		270D3B73257C46D20072CDF2 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D3B72257C46D20072CDF2 /* UserSettings.swift */; };
 		277586EF257C471D00FB1728 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D3B72257C46D20072CDF2 /* UserSettings.swift */; };
 		277586F4257C4E3000FB1728 /* IrregularGradient in Frameworks */ = {isa = PBXBuildFile; productRef = 277586F3257C4E3000FB1728 /* IrregularGradient */; };
-		277BC112257A6D3100D7E6D0 /* Clear_Spaces_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277BC111257A6D3100D7E6D0 /* Clear_Spaces_ChallengeApp.swift */; };
+		277BC112257A6D3100D7E6D0 /* Basic_Text_WidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277BC111257A6D3100D7E6D0 /* Basic_Text_WidgetApp.swift */; };
 		277BC114257A6D3100D7E6D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277BC113257A6D3100D7E6D0 /* ContentView.swift */; };
 		277BC116257A6D3300D7E6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277BC115257A6D3300D7E6D0 /* Assets.xcassets */; };
 		277BC119257A6D3300D7E6D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277BC118257A6D3300D7E6D0 /* Preview Assets.xcassets */; };
@@ -47,8 +47,8 @@
 
 /* Begin PBXFileReference section */
 		270D3B72257C46D20072CDF2 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
-		277BC10E257A6D3100D7E6D0 /* Clear Spaces Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clear Spaces Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		277BC111257A6D3100D7E6D0 /* Clear_Spaces_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clear_Spaces_ChallengeApp.swift; sourceTree = "<group>"; };
+		277BC10E257A6D3100D7E6D0 /* Basic Text Widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basic Text Widget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		277BC111257A6D3100D7E6D0 /* Basic_Text_WidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_Text_WidgetApp.swift; sourceTree = "<group>"; };
 		277BC113257A6D3100D7E6D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		277BC115257A6D3300D7E6D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		277BC118257A6D3300D7E6D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		27C77E9F257A6E62007BD2EF /* Basic_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_Text.swift; sourceTree = "<group>"; };
 		27C77EA1257A6E64007BD2EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27C77EA3257A6E64007BD2EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27C77EAD257A6FE1007BD2EF /* Clear Spaces Challenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Clear Spaces Challenge.entitlements"; sourceTree = "<group>"; };
+		27C77EAD257A6FE1007BD2EF /* Basic Text Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Basic Text Widget.entitlements"; sourceTree = "<group>"; };
 		27C77EAE257A71B5007BD2EF /* Basic TextExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Basic TextExtension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				27C77EAE257A71B5007BD2EF /* Basic TextExtension.entitlements */,
-				277BC110257A6D3100D7E6D0 /* Clear Spaces Challenge */,
+				277BC110257A6D3100D7E6D0 /* Basic Text Widget */,
 				27C77E9E257A6E62007BD2EF /* Basic Text */,
 				27C77E99257A6E62007BD2EF /* Frameworks */,
 				277BC10F257A6D3100D7E6D0 /* Products */,
@@ -98,24 +98,24 @@
 		277BC10F257A6D3100D7E6D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				277BC10E257A6D3100D7E6D0 /* Clear Spaces Challenge.app */,
+				277BC10E257A6D3100D7E6D0 /* Basic Text Widget.app */,
 				27C77E98257A6E62007BD2EF /* Basic TextExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		277BC110257A6D3100D7E6D0 /* Clear Spaces Challenge */ = {
+		277BC110257A6D3100D7E6D0 /* Basic Text Widget */ = {
 			isa = PBXGroup;
 			children = (
-				27C77EAD257A6FE1007BD2EF /* Clear Spaces Challenge.entitlements */,
-				277BC111257A6D3100D7E6D0 /* Clear_Spaces_ChallengeApp.swift */,
+				27C77EAD257A6FE1007BD2EF /* Basic Text Widget.entitlements */,
+				277BC111257A6D3100D7E6D0 /* Basic_Text_WidgetApp.swift */,
 				270D3B72257C46D20072CDF2 /* UserSettings.swift */,
 				277BC113257A6D3100D7E6D0 /* ContentView.swift */,
 				277BC115257A6D3300D7E6D0 /* Assets.xcassets */,
 				277BC11A257A6D3300D7E6D0 /* Info.plist */,
 				277BC117257A6D3300D7E6D0 /* Preview Content */,
 			);
-			path = "Clear Spaces Challenge";
+			path = "Basic Text Widget";
 			sourceTree = "<group>";
 		};
 		277BC117257A6D3300D7E6D0 /* Preview Content */ = {
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		277BC10D257A6D3100D7E6D0 /* Clear Spaces Challenge */ = {
+		277BC10D257A6D3100D7E6D0 /* Basic Text Widget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 277BC11D257A6D3300D7E6D0 /* Build configuration list for PBXNativeTarget "Clear Spaces Challenge" */;
+			buildConfigurationList = 277BC11D257A6D3300D7E6D0 /* Build configuration list for PBXNativeTarget "Basic Text Widget" */;
 			buildPhases = (
 				277BC10A257A6D3100D7E6D0 /* Sources */,
 				277BC10B257A6D3100D7E6D0 /* Frameworks */,
@@ -162,11 +162,11 @@
 			dependencies = (
 				27C77EA5257A6E64007BD2EF /* PBXTargetDependency */,
 			);
-			name = "Clear Spaces Challenge";
+			name = "Basic Text Widget";
 			packageProductDependencies = (
 			);
 			productName = "Clear Spaces Challenge";
-			productReference = 277BC10E257A6D3100D7E6D0 /* Clear Spaces Challenge.app */;
+			productReference = 277BC10E257A6D3100D7E6D0 /* Basic Text Widget.app */;
 			productType = "com.apple.product-type.application";
 		};
 		27C77E97257A6E62007BD2EF /* Basic TextExtension */ = {
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 277BC109257A6D3100D7E6D0 /* Build configuration list for PBXProject "Clear Spaces Challenge" */;
+			buildConfigurationList = 277BC109257A6D3100D7E6D0 /* Build configuration list for PBXProject "Basic Text Widget" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,7 +222,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				277BC10D257A6D3100D7E6D0 /* Clear Spaces Challenge */,
+				277BC10D257A6D3100D7E6D0 /* Basic Text Widget */,
 				27C77E97257A6E62007BD2EF /* Basic TextExtension */,
 			);
 		};
@@ -255,7 +255,7 @@
 			files = (
 				277BC114257A6D3100D7E6D0 /* ContentView.swift in Sources */,
 				270D3B73257C46D20072CDF2 /* UserSettings.swift in Sources */,
-				277BC112257A6D3100D7E6D0 /* Clear_Spaces_ChallengeApp.swift in Sources */,
+				277BC112257A6D3100D7E6D0 /* Basic_Text_WidgetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,18 +401,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Clear Spaces Challenge/Clear Spaces Challenge.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Basic Text Widget/Basic Text Widget.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Clear Spaces Challenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Basic Text Widget/Preview Content\"";
 				DEVELOPMENT_TEAM = X9NAXV39HG;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Clear Spaces Challenge/Info.plist";
+				INFOPLIST_FILE = "Basic Text Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joogps.Clear-Spaces-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joogps.Basic-Text-Widget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -425,18 +425,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Clear Spaces Challenge/Clear Spaces Challenge.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Basic Text Widget/Basic Text Widget.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Clear Spaces Challenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Basic Text Widget/Preview Content\"";
 				DEVELOPMENT_TEAM = X9NAXV39HG;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Clear Spaces Challenge/Info.plist";
+				INFOPLIST_FILE = "Basic Text Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joogps.Clear-Spaces-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joogps.Basic-Text-Widget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +457,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joogps.Clear-Spaces-Challenge.Basic-Text";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joogps.Basic-Text-Widget.Basic-Text";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -479,7 +479,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.joogps.Clear-Spaces-Challenge.Basic-Text";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joogps.Basic-Text-Widget.Basic-Text";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -490,7 +490,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		277BC109257A6D3100D7E6D0 /* Build configuration list for PBXProject "Clear Spaces Challenge" */ = {
+		277BC109257A6D3100D7E6D0 /* Build configuration list for PBXProject "Basic Text Widget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				277BC11B257A6D3300D7E6D0 /* Debug */,
@@ -499,7 +499,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		277BC11D257A6D3300D7E6D0 /* Build configuration list for PBXNativeTarget "Clear Spaces Challenge" */ = {
+		277BC11D257A6D3300D7E6D0 /* Build configuration list for PBXNativeTarget "Basic Text Widget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				277BC11E257A6D3300D7E6D0 /* Debug */,

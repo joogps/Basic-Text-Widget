@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "IrregularGradient",
+        "repositoryURL": "git@github.com:joogps/IrregularGradient.git",
+        "state": {
+          "branch": "main",
+          "revision": "60547d4a7b5b0068a72d46f6a38e9d85d49d0c6b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

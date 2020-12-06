@@ -1,6 +1,6 @@
 //
 //  UserSettings.swift
-//  Clear Spaces Challenge
+//  Basic Text Widget
 //
 //  Created by João Gabriel Pozzobon dos Santos on 05/12/20.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 class UserSettings: ObservableObject {
-    let defaults = UserDefaults(suiteName: "group.com.joogps.Clear-Spaces-Challenge")
+    let defaults = UserDefaults(suiteName: "group.com.joogps.Basic-Text-Widget")
     
     let colorSchemes = [ColorScheme(colors: [.yellow, .orange, .pink], backgroundColor: .orange), ColorScheme(colors: [.green, Color(.cyan), .blue], backgroundColor: .blue), ColorScheme(colors: [.blue, .purple, .pink], backgroundColor: .purple)]
     

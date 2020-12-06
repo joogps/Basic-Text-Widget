@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Clear Spaces Challenge
+//  Basic Text Widget
 //
 //  Created by João Gabriel Pozzobon dos Santos on 04/12/20.
 //
@@ -30,7 +30,7 @@ struct ContentView: View {
                     }.listRowInsets(EdgeInsets())
                 }
             }.listStyle(InsetListStyle())
-            .navigationTitle("CS Challenge")
+            .navigationTitle("Basic Text Widget")
         }
     }
 }
