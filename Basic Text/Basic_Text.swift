@@ -10,8 +10,6 @@ import SwiftUI
 import IrregularGradient
 
 struct Provider: TimelineProvider {
-    let defaults = UserDefaults(suiteName: "group.com.joogps.Clear-Spaces-Challenge")
-    
     func placeholder(in context: Context) -> Basic_TextEntry {
         let settings = UserSettings()
         return Basic_TextEntry(date: Date(), text: "Default text", colorScheme: settings.colorSchemes[0])
